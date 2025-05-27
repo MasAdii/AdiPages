@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AdiPage</title>
+        <link rel="icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <meta name="description" content="AdiPages adalah jasa freelance profesional untuk pembuatan website landing page yang elegan dan tools Python yang powerful dan custom sesuai kebutuhan Anda.">
+        <meta name="keywords" content="jasa website, pembuatan website, landing page, freelance website, freelance python, tools python, web developer indonesia, web scraping, automasi python">
+        <meta name="author" content="Adi">
+        <meta property="og:title" content="AdiPages | Jasa Pembuatan Website & Tools Python">
+        <meta property="og:description" content="Layanan pembuatan website landing page & pengembangan tools Python untuk kebutuhan personal atau bisnis.">
+        <meta property="og:image" content="https://masadii.github.io/AdiPages/img/tumbnail.png" />
+        <meta property="og:url" content="https://masadii.github.io/AdiPages">
+        <meta property="og:type" content="website">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="AdiPages | Jasa Pembuatan Website & Tools Python">
+        <meta name="twitter:description" content="Landing page keren & tools Python anti-mainstream? Cek AdiPages sekarang!">
+        <meta property="og:image" content="https://masadii.github.io/AdiPages/img/tumbnail.png" />
+    </head>
+    <body>
+        <div class="preloader">
+            <div class="spinner"></div>
+            <p>Memuat AdiPages...</p>
+        </div>
+        <button id="scrollToTopBtn" title="Kembali ke atas">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        <header id="header">
+            <nav class="container">
+                <a href="#home" class="logo">AdiPages</a>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#home">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="#about">Tentang</a>
+                    </li>
+                    <li>
+                        <a href="#services">Layanan</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portofolio</a>
+                    </li>
+                    <li>
+                        <a href="#testimonials">Testimoni</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Kontak</a>
+                    </li>
+                </ul>
+                <div class="controls-container">
+                    <div class="theme-switcher">
+                        <button id="themeToggleBtn">
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </div>
+                </div>
+                <button class="hamburger-menu" id="hamburgerMenu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </header>
+        <main>
+            <section id="home" class="hero-section">
+                <div class="hero-content container">
+                    <h1>
+                        Hai, Saya
+                        <span class="your-name">Adi</span>
+                    </h1>
+                    <p class="tagline">
+                        Saya membuat
+                        <span id="typing-effect"></span>
+                    </p>
+                    <p class="intro-text">Pengembang Frontend Kreatif & Spesialis tools python.</p>
+                    <a href="#portfolio" class="btn btn-primary">Lihat Karya Saya</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+                <div class="animated-bg"></div>
+                <a href="#about" class="scroll-down-indicator" aria-label="Scroll ke bawah">
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </section>
+            <section id="about" class="about-section content-section">
+                <div class="container">
+                    <h2 class="section-title reveal">Tentang Saya</h2>
+                    <div class="about-content">
+                        <div class="about-image reveal">
+                            <img src="img/profile.jpg" alt="Nama Anda">
+                        </div>
+                        <div class="about-text reveal">
+                            <p>Halo! Saya seorang freelancer yang bersemangat dan berorientasi pada hasil, berspesialisasi dalam membuat halaman landas yang indah dan responsif serta mengembangkan alat Python yang efisien dan berguna. Dengan ketajaman desain dan fondasi yang kuat dalam teknologi web modern, saya membantu bisnis dan individu mencapai tujuan digital mereka.</p>
+                            <p>Perjalanan saya ke dunia teknologi dimulai dengan ketertarikan pada cara kerja situs web, yang dengan cepat berkembang menjadi kecintaan pada coding dan pemecahan masalah. Saya berkembang dengan mengubah ide-ide kompleks menjadi solusi yang elegan dan fungsional.</p>
+                            <h3>Keahlian Saya</h3>
+                            <div class="skills-grid">
+                                <div class="skill-item">
+                                    <span>HTML5</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" data-progress="95%" style="width: 0;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>CSS3 & Animasi</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" data-progress="90%" style="width: 0;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>JavaScript (ES6+)</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" data-progress="85%" style="width: 0;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Python</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" data-progress="90%" style="width: 0;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Prinsip Desain UI/UX</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" data-progress="75%" style="width: 0;"></div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <span>Desain Responsif</span>
+                                    <div class="progress-bar-container">
+                                        <div class="progress-bar" data-progress="95%" style="width: 0;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h3>Teknologi & Alat yang Saya Gunakan</h3>
+                            <ul class="tools-list">
+                                <li>
+                                    <i class="fab fa-git-alt"></i>
+                                    Git & GitHub
+                                </li>
+                                <li>
+                                    <i class="fas fa-code"></i>
+                                    VS Code
+                                </li>
+                                <li>
+                                    <i class="fab fa-html5"></i>
+                                    HTML5
+                                </li>
+                                <li>
+                                    <i class="fab fa-css3-alt"></i>
+                                    CSS3
+                                </li>
+                                <li>
+                                    <i class="fab fa-js-square"></i>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    <i class="fas fa-terminal"></i>
+                                    Terminal / CLI
+                                </li>
+                                <li>
+                                    <i class="fab fa-linux"></i>
+                                    Linux
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services-section content-section alt-bg">
+                <div class="container">
+                    <h2 class="section-title reveal">Layanan Saya</h2>
+                    <div class="services-grid">
+                        <div class="service-card reveal">
+                            <div class="card-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <h3>Halaman Landas Modern</h3>
+                            <p>Membuat halaman landas yang menakjubkan secara visual, berkonversi tinggi, dan sepenuhnya responsif menggunakan HTML, CSS, dan JavaScript. Fokus pada kode bersih, waktu muat cepat, dan pengalaman pengguna yang luar biasa.</p>
+                        </div>
+                        <div class="service-card reveal">
+                            <div class="card-icon">
+                                <i class="fab fa-python"></i>
+                            </div>
+                            <h3>Pembuatan Alat Python</h3>
+                            <p>Mengembangkan skrip dan alat Python kustom untuk otomatisasi, alat hacking, analisi data dll. Menyederhanakan alur kerja dan memecahkan masalah kompleks secara efisien.</p>
+                        </div>
+                        <div class="service-card reveal">
+                            <div class="card-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <h3>Desain Web Responsif</h3>
+                            <p>Memastikan situs web Anda terlihat dan berfungsi sempurna di semua perangkat, dari desktop hingga smartphone. Pendekatan mobile-first dan pengujian yang ketat.</p>
+                        </div>
+                        <div class="service-card reveal">
+                            <div class="card-icon">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                            <h3>Optimasi Situs Web</h3>
+                            <p>Meningkatkan kinerja situs web, kecepatan, dan dasar-dasar SEO untuk meningkatkan keterlibatan dan visibilitas pengguna. Minifikasi kode, optimasi gambar, dan praktik terbaik.</p>
+                        </div>
+                        <div class="service-card reveal">
+                            <div class="card-icon">
+                                <i class="fas fa-pencil-ruler"></i>
+                            </div>
+                            <h3>Desain UI/UX Modern</h3>
+                            <p>Membuat antarmuka pengguna yang estetis dan intuitif, dengan fokus pada kenyamanan pengguna dan tata letak yang efektif. Berdasarkan prinsip desain modern.</p>
+                        </div>
+                        <div class="service-card reveal">
+                            <div class="card-icon">
+                                <i class="fas fa-terminal"></i>
+                            </div>
+                            <h3>Script Otomatisasi Python</h3>
+                            <p>Membangun script Python untuk menyederhanakan tugas-tugas berulang seperti scraping, file processing, atau otomatisasi sistem. Cepat dan efisien.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="portfolio" class="portfolio-section content-section">
+                <div class="container">
+                    <h2 class="section-title reveal">Portofolio Saya</h2>
+                    <div class="portfolio-filter">
+                        <button class="filter-btn active" data-filter="all">Semua</button>
+                        <button class="filter-btn" data-filter="landing">Landing page</button>
+                        <button class="filter-btn" data-filter="python">Alat Python</button>
+                    </div>
+                    <div class="portfolio-grid">
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/acak-kelompok.jpg" alt="Proyek Alpha" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web acak kelompok</h3>
+                                <p>Web yang berguna untuk mengacak kelompok.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/acak-kelompok.jpg">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/acak-kelompok" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="python">
+                            <img src="img/scraper.png" alt="Proyek Beta" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Python Scraper</h3>
+                                <p>Alat pengumpulan data otomatis untuk e-commerce.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/scraper.png">Lihat Detail</a>
+                                    <a href="https://github.com/MasAdii/Python-scraper" target="_blank" rel="noopener noreferrer">
+                                        Kode
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/tebakAngka.png" alt="Proyek Alpha" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web tebak angka</h3>
+                                <p>Web game tebak angka, coba kalau kamu bisa menebaknya.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/tebakAngka.png">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/Tebak-Angka/" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="python">
+                            <img src="img/toolsLite.png" alt="Proyek Beta" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Python Tools Vlite</h3>
+                                <p>Alat hacking yang berguna untuk mengexploit dan scan sistem.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/toolsLite.png">Lihat Detail</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        Kode
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/simplePaint.png" alt="Proyek Alpha" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web simple paint</h3>
+                                <p>Di website ini kamu bisa menggambar sesukamu.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/simplePaint.png">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/simple-paint/" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/topUp-ff.png" alt="Proyek Gamma" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web top up FF</h3>
+                                <p>Web ecommerce top up FF responsif dan bagus.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/topUp-ff.png">Lihat Demo</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/webaudio.png" alt="Proyek Gamma" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web audio app</h3>
+                                <p>Web audio app, di sini kalian bisa menambahkan lagu yang sudah kalian siapkan dan bisa memutar lagunya.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/webaudio.png">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/audio-app/" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/quiz.png" alt="Proyek Alpha" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web quiz</h3>
+                                <p>Di website ini kamu bisa menjawab soal soal yang sudah disediakan, ini juga bisa menambah wawasan kamu.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/quiz.png">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/quiz/" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/todoList.png" alt="Proyek Gamma" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web todo list</h3>
+                                <p>Web todo list, kalian bisa list kegiatan, tugas, dan sebagainya kalian disini.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/todoList.png">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/todo-list/" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="img/kalkulatorKimia.png" alt="Proyek Gamma" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web kalkulator kimia</h3>
+                                <p>Di website ini kalian bisa menghitung rumus rumus kimia dasar.</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="img/kalkulatorKimia.png">Lihat Demo</a>
+                                    <a href="https://masadii.github.io/kalkulator-kimia/" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="landing">
+                            <img src="" alt="Proyek Gamma" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Web AdiQuest</h3>
+                                <p>AdiQuest adalah game tantangan yang menggabungkan di dunia nyata. tunggu apa lagi yuk main gamenya! (NEXT)</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="">Lihat Demo</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="portfolio-item reveal" data-category="python">
+                            <img src="" alt="Proyek Delta" class="portfolio-image">
+                            <div class="portfolio-info">
+                                <h3>Proyek Delta - Bot Otomatisasi</h3>
+                                <p>Bot Python untuk otomatisasi tugas media sosial. (NEXT)</p>
+                                <div class="portfolio-links">
+                                    <a href="#" class="btn-view-project" data-img-src="">Lihat Detail</a>
+                                    <a href="#" target="_blank" rel="noopener noreferrer">
+                                        Kunjungi
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="lightboxModal" class="lightbox-modal">
+                <span class="lightbox-close">×</span>
+                <img class="lightbox-content" id="lightboxImg">
+                <div id="lightboxCaption"></div>
+            </div>
+            <section id="testimonials" class="testimonials-section content-section alt-bg">
+                <div class="container">
+                    <h2 class="section-title reveal">Apa Kata Klien</h2>
+                    <div class="testimonial-carousel-container">
+                        <div class="testimonial-carousel">
+                            <div class="testimonial-slide active">
+                                <img src="https://i.pinimg.com/736x/2d/6e/e3/2d6ee337edaed139edd2cc98111c5ae6.jpg" alt="Klien 1" class="testimonial-avatar">
+                                <p>"Bekerja dengan AdiPages adalah pengalaman yang fantastis. Halaman landas yang dikirimkan melebihi ekspektasi saya!"</p>
+                                <h4>Jane Doe, web developer</h4>
+                            </div>
+                            <div class="testimonial-slide">
+                                <img src="https://i.pinimg.com/736x/14/58/2e/14582ec257e25330f2c6181928b87259.jpg" alt="Klien 2" class="testimonial-avatar">
+                                <p>"Alat otomatisasi Python menghemat waktu kami yang tak terhitung jumlahnya. Sangat terampil dan profesional."</p>
+                                <h4>John Smith, Data Analisis</h4>
+                            </div>
+                            <div class="testimonial-slide">
+                                <img src="https://i.pinimg.com/736x/a8/4b/4a/a84b4a13a859a1c9f81e9d04efbe8146.jpg" alt="Klien 3" class="testimonial-avatar">
+                                <p>"Profesional, responsif, dan menghasilkan pekerjaan berkualitas tinggi tepat waktu. Akan mempekerjakan lagi!"</p>
+                                <h4>Alice Brown</h4>
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" id="testimonialPrev" aria-label="Slide Sebelumnya">❮</button>
+                        <button class="carousel-control next" id="testimonialNext" aria-label="Slide Berikutnya">❯</button>
+                    </div>
+                </div>
+            </section>
+            <section id="blog" class="blog-section content-section">
+                <div class="container">
+                    <h2 class="section-title reveal">Wawasan Terbaru</h2>
+                    <div class="blog-grid">
+                        <article class="blog-post reveal">
+                            <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*jYDbq1M2aH_BUZEQXLexeg.png" alt="Artikel Blog 1">
+                            <h3>5 Tips Teratas untuk Desain Web Modern</h3>
+                            <p class="post-meta">Oleh medium.com</p>
+                            <p>Ingin mengembangkan desain UI aplikasi kontemporer untuk perusahaan Anda? Simak 5 poin berikut untuk memulai....</p>
+                            <a href="https://medium.com/@theupbeatdesigner/5-tips-to-create-a-modern-app-ui-design-for-your-business-6220da4d4b43" class="btn btn-secondary">Baca Selengkapnya</a>
+                        </article>
+                        <article class="blog-post reveal">
+                            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20231212153128/Python-automation-Tutorial.webp" alt="Artikel Blog 2">
+                            <h3>Python untuk Pemula: Otomatiskan Tugas Anda</h3>
+                            <p class="post-meta">Oleh  www.geeksforgeeks.org</p>
+                            <p>
+                                Python adalah bahasa pemrograman yang sangat hebat dan berkembang dengan cepat karena kemudahan penggunaan dan sintaksisnya yang lugas. Dalam Tutorial Otomatisasi Python ini...
+                                <p>
+                                    <a href="https://www.geeksforgeeks.org/python-automation/" class="btn btn-secondary">Baca Selengkapnya</a>
+                                </article>
+                                <article class="blog-post reveal">
+                                    <img src="https://taglineinfotech.com/wp-content/uploads/2023/05/Vanilla-JS-Vs-React-JS_-What-To-Choose-For-Your-Development_-2.webp" alt="Artikel Blog 3">
+                                    <h3>Vanilla JS atau React JS?</h3>
+                                    <p class="post-meta">Oleh taglineinfotech.com</p>
+                                    <p>Vanilla vs React js selalu menjadi topik perdebatan terbesar, karena keduanya dapat digunakan untuk mengembangkan aplikasi JavaScript. Di artikel ini...</p>
+                                    <a href="https://taglineinfotech.com/blog/react-js-vs-vanilla-js/" class="btn btn-secondary">Baca Selengkapnya</a>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="contact" class="contact-section content-section alt-bg">
+                        <div class="container">
+                            <h2 class="section-title reveal">Hubungi Saya</h2>
+                            <div class="contact-content">
+                                <div class="contact-form-container reveal">
+                                    <form id="contactForm">
+                                        <div class="form-group">
+                                            <input
+                                                type="text"
+                                                id="name"
+                                                name="name"
+                                                required
+                                            >
+                                            <label for="name">Nama Anda</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input
+                                                type="email"
+                                                id="email"
+                                                name="email"
+                                                required
+                                            >
+                                            <label for="email">Email Anda</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <input
+                                                type="text"
+                                                id="subject"
+                                                name="subject"
+                                                required
+                                            >
+                                            <label for="subject">Subjek</label>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea
+                                                id="message"
+                                                name="message"
+                                                rows="5"
+                                                required
+                                            ></textarea>
+                                            <label for="message">Pesan Anda</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">
+                                            Kirim Pesan
+                                            <i class="fas fa-paper-plane"></i>
+                                        </button>
+                                        <p id="formStatus"></p>
+                                    </form>
+                                </div>
+                                <div class="contact-info reveal">
+                                    <h3>Informasi Kontak</h3>
+                                    <p>
+                                        <i class="fas fa-envelope"></i>
+                                        githubmasadi@gmail.com
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        Jawa, Indonesia 🇮🇩
+                                    </p>
+                                    <div class="social-media-links">
+                                        <a
+                                            href="https://www.youtube.com/@codingin34"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            aria-label="Youtube"
+                                        >
+                                            <i class="fa-brands fa-youtube"></i>
+                                        </a>
+                                        <a
+                                            href="https://www.github.com/masadii"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            aria-label="GitHub"
+                                        >
+                                            <i class="fab fa-github"></i>
+                                        </a>
+                                        <a
+                                            href="https://www.instagram.com/adipentestsantuy"
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            aria-label="Instagram"
+                                        >
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+                <footer id="footer">
+                    <div class="container">
+                        <p>
+                            &copy;
+                            <span id="currentYear"></span>
+                            AdiPages. Hak Cipta Dilindungi.
+                        </p>
+                    </div>
+                </footer>
+                <script src="script.js"></script>
+            </body>
+        </html>
