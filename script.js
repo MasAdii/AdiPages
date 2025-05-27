@@ -413,7 +413,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         clearAllErrors()
 
                         setTimeout(() => {
-                            window.location.href = 'https://www.instagram.com/adipentestsantuy'
+                            window.location.href = 'https://www.instagram.com/adipagesfreelancer?igsh=MW01cGlwZWNzaGZvMg=='
                         }, 700) 
 
                     }, 1500)
